@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+body,html{
+    height: 100px;
+    width:100px;
+}
+#head{
+    margin:50px;
+    margin-right: 10px;
+    border:solid gold;
+    border-right: 5px solid rgba(165, 42, 42, 0.156); 
+    border-left: 5px dotted #fbfbf8;
+    padding:50px;
+    position: relative;
+    z-index:-1;
+    background-color: rgba(232, 190, 172, 0.893);
+}
+.hair{
+    display:flex;
+    height:20px;
+    width:50px;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    z-index:1;
+    top:10px;
+    padding-top: 20%;    
+    background-color: black;
+}
+.button{
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    height:5px;
+    width:5px;
+    position:absolute;
+    border-radius: 50%;
+    background-color: brown;
+}
